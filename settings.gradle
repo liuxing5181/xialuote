@@ -1,0 +1,8 @@
+rootProject.name = "kotlin-xialuote"
+include ':app'
+include ':framework'
+include ':ability'
+include ':main'
+include ':common'
+include ':component'
+include ':common-x'

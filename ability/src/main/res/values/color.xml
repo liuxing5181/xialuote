@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <!--    透明度-->
+    <color name="transparent">@android:color/transparent</color>
+    <color name="colorTextAlpha10">#1AFFFFFF</color>
+    <color name="colorTextAlpha20">#33FFFFFF</color>
+    <color name="colorTextAlpha30">#4DFFFFFF</color>
+    <color name="colorTextAlpha50">#80FFFFFF</color>
+    <color name="colorTextAlpha60">#99FFFFFF</color>
+    <color name="colorTextAlpha65">#A6FFFFFF</color>
+    <color name="colorTextAlpha70">#B3FFFFFF</color>
+    <color name="colorTextAlpha80">#CCFFFFFF</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_202020">#202020</color>
+    <color name="color_09C8A5">#09C8A5</color>
+    <color name="color_F8D4AC">#F8D4AC</color>
+    <color name="color_E3E3E3">#E3E3E3</color>
+    <color name="color_86A8D5">#86A8D5</color>
+    <color name="color_5676A6">#5676A6</color>
+    <color name="color_FFFBFB">#FFFBFB</color>
+    <color name="color_3C94F5">#3C94F5</color>
+    <color name="color_5872A7">#5872A7</color>
+    <color name="color_E81427">#E81427</color>
+    <color name="color_832322">#832322</color>
+    <color name="color_E13413">#E13413</color>
+
+    <color name="shadow_default_color">#1A000000</color>
+    <color name="shadow_card_default_color">#80ffffff</color>
+
+</resources>

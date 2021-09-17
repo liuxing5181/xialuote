@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Theme.Kotlinxialuote.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Kotlinxialuote.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Kotlinxialuote.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Kotlinxialuote" parent="Theme.MaterialComponents.Light" />
+</resources>
