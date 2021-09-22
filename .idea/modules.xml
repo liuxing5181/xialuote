@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xialuote.iml" filepath="$PROJECT_DIR$/.idea/modules/xialuote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ability/xialuote.ability.iml" filepath="$PROJECT_DIR$/.idea/modules/ability/xialuote.ability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/xialuote.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/xialuote.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/xialuote.framework.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/xialuote.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/xialuote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/xialuote.main.iml" />
     </modules>
   </component>
 </project>
