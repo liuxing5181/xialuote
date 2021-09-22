@@ -22,28 +22,10 @@ abstract class BaseActivity<BD : ViewDataBinding> : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         getLayoutId()?.let { mBinding = DataBindingUtil.setContentView(this, it) }
-        setStatusColor()
-        setSystemInvadeBlack()
         initViewModel()
         init(savedInstanceState)
         loadData()
     }
-
-    /**
-     * 设置状态栏背景颜色
-     */
-    open fun setStatusColor() {
-        StatusUtils.setUseStatusBarColor(this, ColorUtils.parseColor("#00000000"))
-    }
-
-    /**
-     * 沉浸式状态
-     */
-    open fun setSystemInvadeBlack() {
-        //第二个参数是是否沉浸,第三个参数是状态栏字体是否为黑色。
-        StatusUtils.setSystemStatus(this, true, true)
-    }
-
 
     /**
      * 获取指定类型的VM实例，跟随activity生命周期
@@ -59,7 +41,7 @@ abstract class BaseActivity<BD : ViewDataBinding> : AppCompatActivity() {
 
     protected fun <T : ViewModel> getViewModel(
         factory: ViewModelProvider.Factory,
-        modelClass: Class<T>
+        modelClass: Class<T>,
     ): T {
         return ViewModelProvider(this, factory)
             .get(modelClass)

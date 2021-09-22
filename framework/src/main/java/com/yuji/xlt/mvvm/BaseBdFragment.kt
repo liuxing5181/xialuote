@@ -48,8 +48,6 @@ abstract class BaseBdFragment<BD : ViewDataBinding> : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         getLayoutId()?.let {
-            setStatusColor()
-            setSystemInvadeBlack()
             //获取ViewDataBinding
             binding = DataBindingUtil.inflate(inflater, it, container, false)
             //将ViewDataBinding生命周期与Fragment绑定
@@ -118,21 +116,6 @@ abstract class BaseBdFragment<BD : ViewDataBinding> : Fragment() {
      */
     open fun onClick() {
 
-    }
-
-    /**
-     * 设置状态栏背景颜色
-     */
-    open fun setStatusColor() {
-        //StatusUtils.setUseStatusBarColor(mActivity, ColorUtils.parseColor("#00ffffff"))
-    }
-
-    /**
-     * 沉浸式状态
-     */
-    open fun setSystemInvadeBlack() {
-        //第二个参数是是否沉浸,第三个参数是状态栏字体是否为黑色。
-        //StatusUtils.setSystemStatus(mActivity, true, true)
     }
 
     /**

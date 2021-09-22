@@ -2,4 +2,3 @@ rootProject.name = "xialuote"
 include ':app'
 include ':framework'
 include ':ability'
-include ':main'
